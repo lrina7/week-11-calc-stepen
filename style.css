@@ -1,0 +1,56 @@
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: aqua;
+  color: white;
+}
+
+p {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  text-align: center;
+}
+
+.number  {
+  width:20em ;
+  height: 2em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.button {
+  width: 7em;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.5em;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button:hover {
+  background: yellow;
+}
+
+.result {
+  width: 15em;
+  height: 2em;
+  margin: 1em;
+  padding: 0.5em;
+  border: 1px solid white;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2em;
+}
